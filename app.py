@@ -594,10 +594,10 @@ with col_board:
         lastmove=last_move,
         size=480,
         colors={
-            "square light": "#F0D9B5",
-            "square dark": "#B58863",
-            "square light lastmove": "#CDD26A",
-            "square dark lastmove": "#AAAA44",
+            "square light": "#FFFFFF",
+            "square dark": "#4CAF50",
+            "square light lastmove": "#8BC34A",
+            "square dark lastmove": "#689F38",
         },
         flipped=(st.session_state.player_color == chess.BLACK)
     )
